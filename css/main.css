@@ -32,16 +32,18 @@ html {
   border-color: #fff;
 }
 
+ul a:focus,
 .nav a:hover span,
 .nav a:focus span {
   border-color: #000;
   background-color: #e2e2e2;
+  outline: .3rem solid #fff;
 }
 
 .banner {
   min-height: 16em;
   color: #fff;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #522806;
 }
 
 .card {
@@ -51,9 +53,9 @@ html {
 }
 
 .btn-light {
-  background-color: #fff;
-  border-color: #000;
-  color: #321906;
+  background-color: #bea59b;
+  border-color: #bea59b;
+  color: #522806;
 }
 
 .btn-light:hover,
